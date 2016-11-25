@@ -43,13 +43,13 @@
     
     <div id="wall_text"></div>
 
-    <script type="text/javascript"
+    <script type="text/javascript">
             for(var j=1; j<=10; j++) 
     { 
             var dv = $("<div> </div>"); 
             dv.html(data.response[j].text); 
            $("#wall_text").append(dv); 
-  }>
+    }
             
         
         var vk_user_id = 1;
